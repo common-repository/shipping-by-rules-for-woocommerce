@@ -1,0 +1,121 @@
+/*******************************/
+/* CSS for the Upgrade NAG Box */
+/*******************************/
+div#opentools-shippingbyrules-upgrade,
+div#opentools-shippingbyrules-help {
+	padding: 5px 10px;
+	width: 100%;
+}
+div#opentools-shippingbyrules-upgrade.postbox,
+div#opentools-shippingbyrules-help.postbox {
+/*   display: inline-block; */
+}
+#opentools-shippingbyrules-upgrade h3,
+#opentools-shippingbyrules-help h3 {
+    margin: 0;
+    border-bottom: #800000 solid 1px;
+    margin-top: 3px;
+    padding-bottom: 3px;
+}
+div#opentools-shippingbyrules-upgrade ul,
+div#opentools-shippingbyrules-help ul {
+	list-style: disc;
+/* 	list-style-position: inside; */
+	margin-left: 5px;
+	padding-left: 5px;
+	margin-top: 5px;
+}
+div#opentools-shippingbyrules-upgrade li,
+div#opentools-shippingbyrules-help li {
+	margin-left: 2em;
+}
+div#opentools-shippingbyrules-upgrade .column1, div#opentools-shippingbyrules-upgrade .column2,
+div#opentools-shippingbyrules-help .column1, div#opentools-shippingbyrules-help .column2 {
+	float: left;
+}
+
+div#opentools-shippingbyrules-upgrade .logoleft {
+  float: left;
+  padding-right: 10px;
+  position: absolute;
+  left: 15px;
+}
+div#opentools-shippingbyrules-upgrade .contents {
+	padding-left: 120px;
+}
+
+
+
+
+
+/*******************************/
+/* CSS for the rules help Box  */
+/*******************************/
+ul.otsr_list, ul.otsr_list ul {
+	list-style: disc;
+	padding-left: 10px;
+}
+ul.otsr_list ul {
+	list-style: circle;
+}
+ul.otsr_list li {
+	margin-bottom: 2px;
+}
+ul.otsr_list blockquote {
+	background: #f0f0f0;
+	margin: 0;
+	padding: 0.2em 0.5em;
+}
+
+
+#opentools-shippingbyrules-help .opentools_shippingbyrules_title {
+  cursor: pointer;
+}
+#opentools-shippingbyrules-help .opentools_shippingbyrules_title h3 {
+	padding-right: 30px;
+}
+
+#opentools-shippingbyrules-help .openclose {
+  cursor: pointer;
+  float: right;
+  width: 20px;
+  height: 20px;
+}
+#opentools-shippingbyrules-help.closed .content {
+	display: none;
+}
+
+#opentools-shippingbyrules-help.closed .openclose:before {
+  content: '\f140';
+}
+#opentools-shippingbyrules-help .openclose:before {
+  content: '\f142';
+}
+#opentools-shippingbyrules-help .openclose:before {
+/*   right: 12px; */
+  font: 400 20px/1 dashicons;
+  speak: none;
+  display: inline-block;
+  padding: 1px;
+  top: 0;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none!important;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/************************************/
+/* CSS for the Shipping methods box */
+/************************************/
+table.rules_shipping_methods.wc-shipping-zones td li, table.rules_shipping_methods.wc-shipping-zones th li {
+    line-height: 1.15em;
+}
+table.rules_shipping_methods.wc-shipping-zones td, table.rules_shipping_methods.wc-shipping-zones th {
+    line-height: 1.15em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

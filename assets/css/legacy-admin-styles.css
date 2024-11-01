@@ -1,0 +1,93 @@
+table.rules_shipping_methods th {
+	padding-left: 10px;
+}
+table.rules_shipping_methods .name {
+	
+}
+table.rules_shipping_methods.widefat {
+	background: inherited;
+}
+
+div.shipping_rules_ruleset {
+	background: #f8f8f8;
+	border: #D0D0D0 1px solid;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#shipping_rules_rulesets .ruleset_openclose {
+  cursor: pointer;
+  float: right;
+  width: 27px;
+  height: 30px;
+}
+#shipping_rules_rulesets .shipping_rules_ruleset.closed .inside {
+	display: none;
+}
+
+#shipping_rules_rulesets .shipping_rules_ruleset.closed .ruleset_openclose:before {
+  content: '\f140';
+}
+#shipping_rules_rulesets .shipping_rules_ruleset .ruleset_openclose:before {
+  content: '\f142';
+}
+#shipping_rules_rulesets .ruleset_openclose:before {
+/*   right: 12px; */
+  font: 400 20px/1 dashicons;
+  speak: none;
+  display: inline-block;
+  padding: 2px;
+  top: 0;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none!important;
+	width: 100%;
+	height: 100%;
+}
+
+#poststuff div.shipping_rules_ruleset h3 {
+	padding: 6px 3px;
+}
+
+.form-table td.shipping_rules_rulescell {
+	padding-left: 0;
+}
+
+.form-table textarea.shipping_rules_rule_textarea {
+	width: 100%;
+}
+#shipping_rules_rulesets .form-table th.titledesc {
+	padding-bottom: 12px;
+	padding-top: 8px;
+	font-weight: normal;
+	
+}
+#shipping_rules_rulesets .form-table td.forminp {
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+
+.ruleset-box-header {
+	width: 100%;
+	height: 30px;
+/* 	border: 1px solid #808080; */
+	border-bottom: 1px solid #D0D0D0;
+}
+.ruleset-box-header .input-wrap {
+	display: block;
+	overflow: hidden;
+	height: 100%;
+}
+.ruleset-box-header input.ruleset_name {
+	width: 100%;
+	margin: 2px 0;
+}
+.ruleset-box-header .ruleset_name_label {
+	float: left;
+	height: 100%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
